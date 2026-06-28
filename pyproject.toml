@@ -1,7 +1,11 @@
 [project]
-name = "fastapi-example"
+name = "fastapi-python-boilerplate"
 version = "0.1.0"
-requires-python = ">=3.14"
+description = "Face-to-Face Translation Engine Backend"
+requires-python = ">=3.12"
 dependencies = [
-    "fastapi>=0.135.3"
+    "fastapi>=0.100.0",
+    "uvicorn>=0.22.0",
+    "httpx>=0.24.1",
+    "python-multipart>=0.0.6"
 ]
